@@ -1,0 +1,24 @@
+{
+  "contracts": {
+    "ecVerify": {
+      "address": "0x222de776AB9992d9f3d8460A1869eE16FB2A8A53",
+      "constructorCode": "608060405234801561001057600080fd5b506103c2806100206000396000f3fe",
+      "bodyBytecodeHash": "7d204e06a9ecff3df564963e3360471b50a2967619752660479777f0eee58a16",
+      "localBytecodeHash": "da3c7263f3a06baa001c2dd293e27154d6181fe7307012a8ebbaea57e2275aad",
+      "deployedBytecodeHash": "da3c7263f3a06baa001c2dd293e27154d6181fe7307012a8ebbaea57e2275aad",
+      "types": {},
+      "storage": [],
+      "warnings": {
+        "hasConstructor": false,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": []
+      }
+    }
+  },
+  "solidityLibs": {},
+  "proxies": {},
+  "zosversion": "2.2",
+  "version": "0.1.0"
+}
