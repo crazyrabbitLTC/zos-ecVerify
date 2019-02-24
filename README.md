@@ -13,6 +13,12 @@ Given three arguments, the hash of a message (_message), the signed version of t
 
 Given two arguments, the hash of a message (_message) and the signed version of that message (_sig) it will return the public address corresponding to the private key with which the message (_message) was signed. 
 
+## Tests
+
+To run tests type: 
+
+`truffle test`
+
 Based on https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/cryptography/ECDSA.sol
 
 Based on https://github.com/pubkey/eth-crypto
