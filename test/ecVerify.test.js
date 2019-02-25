@@ -1,6 +1,7 @@
 const ecVerify = artifacts.require("ecVerify");
 const EthCrypto = require("eth-crypto");
 
+//Standard Truffle Testing
 contract("ecVerify", accounts => {
   it("Should return the correct signing address", async () => {
     const signerIdentity = EthCrypto.createIdentity();
@@ -50,3 +51,4 @@ contract("ecVerify", accounts => {
     assert.equal(false, returnValue);
   });
 });
+
